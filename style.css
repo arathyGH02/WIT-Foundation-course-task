@@ -1,0 +1,186 @@
+ @import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');   /* karla */
+
+
+*{
+    margin: 0;
+    padding: 1;
+}
+h1{
+   
+    text-align: left;
+    font-size: 2.5rem;
+    font-family: 'Karla', sans-serif;
+    color: black;
+    padding-left: 2.5rem;
+}
+h2{
+    padding-left: 2rem;
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: 'Karla', sans-serif;
+    color: black;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    align-items: center;
+    position: sticky;
+   
+}
+.navbar::before{
+    content: "";
+    position: absolute;
+    background-color: #0A1931;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar ul li{
+   
+    font-size: 1.5rem;
+   font-family: 'Karla', sans-serif;
+}
+.navbar ul li a{
+    padding: 5px 20px;
+    text-decoration: none;
+    color: white;
+}
+.navbar ul li a:hover{
+    /* border-bottom: 2px solid rgb(45, 169, 207); */
+    color: rgb(136, 216, 243);
+}
+
+/* ---------- HOME elements ---------------------  */
+#home{
+    background-image: url(images/img1.jpg);
+    height: 60rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #eee;
+    /* margin: 2rem 0; */
+    /* padding: 0; */
+}
+#home p{
+    font-size: 1.5rem;
+   font-family: 'Karla', sans-serif;
+   color: black;
+   padding-left: 2.5rem;
+}
+.my-image{
+    height: 45rem;
+    width: 25rem;
+    border: cornflowerblue;
+    border-radius: 20rem;
+}
+
+
+/* ------------ ABOUT ME ----------------- */
+#aboutme h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Karla', sans-serif;
+    color: white;
+    padding-top: 1.5rem;
+}
+.heading{
+    background-color: #0A1931;
+    padding: 0.5rem;
+}
+.row{
+    background-color: #8bb4ca;
+    padding: 0;
+    text-align: center;
+    color: rgb(12, 11, 11);
+}
+.personal-info h3{
+    font-family: 'Karla', sans-serif;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+.personal-info span{
+    
+    color: #1A1A40;
+}
+
+/* --------- EDUCATION ----------- */
+#education h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Karla', sans-serif;
+    color: white;
+    padding-top: 1.5rem;
+}
+.edu-table{
+    background-color: #8bb4ca;
+}
+.edu-details{
+    padding-left: 30rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.list-group-item{
+    background-color: #6b92a7;
+   
+}
+.edu-details li{
+    color: black;
+}
+
+
+/* -------- EXPERIENCE/ACHIEVEMENTS ---------- */
+#experience h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Karla', sans-serif;
+    color: white;
+    padding-top: 1.5rem;
+}
+.d-block{
+    padding-left: 25rem;
+    height: 500px;
+    width: 70rem;
+}
+.certificates{
+    background-color: #8bb4ca;
+    padding: 2rem;
+}
+
+
+/* --------- CONTACT ---------- */
+#contact h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Karla', sans-serif;
+    color: white;
+    padding-top: 1.5rem;
+}
+.info h3{
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Karla', sans-serif;
+    color: white;
+    padding-top: 2rem;
+}
+.info{
+    background-color: #8bb4ca;
+    padding: 2rem;
+}
+
+
+.footer{
+    background-color: #0A1931 ;
+    height: 60px;
+    width: 100;
+}
+
+
+
+
